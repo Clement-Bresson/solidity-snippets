@@ -5,7 +5,11 @@ import "./Ownable.sol";
 // Add utility functions to manage the contract balance
 // This contract balance can only be managed by owner
 
-contract Vault is Ownable { 
+contract Vault is Ownable {
+
+  function () public payable {
+
+  }
 
   function getBalance() public view returns (uint) {
     return address(this).balance;
