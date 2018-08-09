@@ -1,7 +1,7 @@
-pragma solidity 0.4.24;
-
 // Makes the contract owned by its creator
 // A utility function is provided to change the owner
+
+pragma solidity 0.4.24;
 
 contract Ownable {
 

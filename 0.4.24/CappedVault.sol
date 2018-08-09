@@ -1,8 +1,8 @@
+// a Vault capped to 33333 ether (in total ether sent over time)
+
 pragma solidity 0.4.24;
 
 import "./Vault.sol";
-
-// a Vault capped to 33333 ether (in total ether sent over time)
 
 contract CappedVault is Vault { 
 

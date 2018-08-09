@@ -1,9 +1,9 @@
+// Add utility functions to manage the contract balance
+// This contract balance can only be managed by owner
+
 pragma solidity 0.4.24;
 
 import "./Ownable.sol";
-
-// Add utility functions to manage the contract balance
-// This contract balance can only be managed by owner
 
 contract Vault is Ownable {
 
